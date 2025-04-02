@@ -5,7 +5,7 @@ import java.util.Scanner;
 import support.cse131.NotYetImplementedException;
 
 public class Quiz {
-	
+	public Question[] questions;
 	/**
 	 * Constructor
 	 * @param questions
@@ -30,7 +30,9 @@ public class Quiz {
 	 * @return int number of total points
 	 */
 	public int getTotalPoints() {
-		throw new NotYetImplementedException();
+		for (Question Question:questions) {
+			
+		}
 	}
 	
 	/**
